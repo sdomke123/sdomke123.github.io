@@ -1,0 +1,120 @@
+body {
+    background: #ced0d9 !important;
+}
+
+header {
+    background: white;
+    height: 70px
+}
+
+.box1 {
+    margin-top: 150px;
+    padding: 10px 20px 15px;
+    background: white
+}
+
+.header2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #364fe0
+}
+
+.home {
+    float: left;
+}
+
+.navbar .navbar-brand { 
+    margin-left: 30px; 
+    padding-left: 15px; 
+    padding-right: 15px;
+    font-weight: bold; 
+    background-color: #364fe0
+}
+
+.browse {
+    padding-right: 30px
+}
+
+.box2 {
+    margin-top: 50px;
+    padding: 30px 30px;
+    background: white
+}
+
+.nav-link:hover{
+    background-color:#3750e2 !important;
+    color: white !important
+   }
+
+.navbar-brand:hover{
+    color: gray !important;
+   
+}
+
+.browse {
+    height: 99% !important;
+    width: 99% !important
+}
+
+.active, .browse:hover{
+    border-color:#3750e2;
+    border-style: solid; 
+    
+}
+
+.navbar-brand {
+    color: white !important
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block
+}
+
+.dropdown:hover>.dropdown-menu>.dropdown-item:hover {
+    background-color: #3750e2;
+    color: white !important
+}
+
+footer {
+    background-color: #1a52b9; 
+    border-top-style: solid; 
+    border-top-width: 3px; 
+    border-top-color: gray;
+    color: white;
+    min-height: 10px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 950px) {
+
+    #main-navbar {
+        background-color: #364fe0 !important;
+    }
+    
+    .navbar-brand{
+        padding: 10px !important; 
+    }
+    
+    button{
+        margin-right: 20px; 
+    }
+
+    button:focus {
+    
+        outline: 2px dotted;
+        outline: 5px auto -webkit-focusring-color;
+        
+    }
+
+    a#navbarDropdown.nav-link.dropdown-toggle {
+        color: white !important
+    }
+
+    a.nav-link {
+        color: white !important
+    }
+}
